@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Proudly presented by ECharts</title>
+    {% for jsfile_name in script_list %}
+        <script src="../static/{{ jsfile_name }}.js"></script>
+    {% endfor %}
+</head>
+
+<body style="margin: auto">
+<div style="margin: auto;width: 70%">
+    <div>
+        <h3>交互式数据可视化主题</h3>
+    </div>
+
+    <form action="/" style="float: left">
+        <button type="submit">首页</button>
+    </form>
+
+    <form action="/gdp_map" style="float: left;margin-left: 10px">
+        <button type="submit">GDP地图模型</button>
+    </form>
+    <form action="/marry_line" style="float: left;margin-left: 10px">
+        <button type="submit">各省结婚率折线图模型</button>
+    </form>
+    <form action="/women_work" style="float: left;margin-left: 10px">
+        <button type="submit">女子工作率折线图模型</button>
+    </form>
+
+    <form action="/study_geo" style="margin-left: 20px">
+        <span style="margin-left: 10px">请选择</span>
+        <select name="city">
+            <option value="2013">2013年6岁及以上女子大专学历人数</option>
+            <option value="2018">2018年6岁及以上女子大专学历人数</option>
+        </select>
+        <button>选择</button>
+    </form>
+    {{ myechart|safe }}
+    <div style="size: 50px"><b>{% if text %}
+        分析
+    {% endif %}</b></div>
+    <div style="float: left;width: 70%">
+        <p style="text-indent:2em">{{ text }}</p>
+    </div>
+    <div style="size: 50px;clear: both"><b>{% if text1 %}
+        发现与结论
+    {% endif %}</b></div>
+    <div style="float: left;width: 70%">
+        <p style="text-indent:2em">{{ text1 }}</p>
+    </div>
+</div>
+</body>
+
+</html>
