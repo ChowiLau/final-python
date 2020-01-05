@@ -3,7 +3,7 @@
 ## 本人刘兆炜 学号181013112 18网络与新媒体3班
 
 ## 本学期我和我的小伙伴合作完成了一个python的期末项目：通过中国各地平均结婚率的变化分析中国近年来的社会经济，文化，生活情况变化
-# 这是我们期末项目的链接（已上传到pythonanywhere）： - [主页](http://chowilau.pythonanywhere.com/) 
+## 这是我们期末项目的链接（已上传到pythonanywhere）： - [主页](http://chowilau.pythonanywhere.com/) 
 
 * 我们的网站有6个URL：
 ---
@@ -19,7 +19,7 @@
 ---
 6.[2018年女子大专以上人数](http://chowilau.pythonanywhere.com/study_geo?city=2018)
 ---
-* 下拉框展示的功能是：
+### 下拉框展示的功能是：
 通过对比2013年及2018年6岁及以上女子大专学历人数分析中国近年来的社会经济，文化，生活，中国各地平均结婚率的变化情况变化
 
 我负责制作的页面：
@@ -30,12 +30,13 @@
 * 设计简单基本交互功能的HTML5控件
 
 
-HTML档描述(更详细的注释已写在每个html档里)
+HTML档描述()
 ---
-Python档描述(更详细的注释已写在webapp.py档里)
+[index.html](https://github.com/ChowiLau/final-python/blob/master/final1/templates/index.html)
+Python档描述()
 ---
 [webapp.py](https://github.com/ChowiLau/final-python/blob/master/final1/app.py)
 
-Web App动作描述(更详细的注释已写在webapp.py档里)
+Web App动作描述()
 ---
 [webapp.py](https://github.com/ChowiLau/final-python/blob/master/final1/app.py)
