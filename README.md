@@ -6,12 +6,19 @@
 # 这是我们期末项目的链接（已上传到pythonanywhere）： - [主页](http://chowilau.pythonanywhere.com/) 
 
 * 我们的网站有6个URL：
+---
 1.[主页](http://chowilau.pythonanywhere.com/)
+---
 2.[GDP地图模型](http://chowilau.pythonanywhere.com/gdp_map)
+---
 3.[各省结婚率折线图模型](http://chowilau.pythonanywhere.com/marry_line)
+---
 4.[女子工作率折线图](http://chowilau.pythonanywhere.com/women_work)
+---
 5.[2013年女子大专以上人数](http://chowilau.pythonanywhere.com/study_geo?city=2013)
+---
 6.[2018年女子大专以上人数](http://chowilau.pythonanywhere.com/study_geo?city=2018)
+---
 * 下拉框展示的功能是：
 通过对比2013年及2018年6岁及以上女子大专学历人数分析中国近年来的社会经济，文化，生活，中国各地平均结婚率的变化情况变化
 
