@@ -27,10 +27,11 @@
 * 涉及了python的数据嵌套和动态现实 
 * 设计了flask的嵌套、动态表格下拉框
 * for循环
+* 设计简单基本交互功能的HTML5控件
 
 
 HTML档描述(更详细的注释已写在每个html档里)
-
+---
 Python档描述(更详细的注释已写在webapp.py档里)
 ---
 [webapp.py](https://github.com/ChowiLau/final-python/blob/master/final1/app.py)
