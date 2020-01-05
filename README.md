@@ -26,8 +26,8 @@ HTML档描述(更详细的注释已写在每个html档里)
 
 Python档描述(更详细的注释已写在webapp.py档里)
 ---
-[https://github.com/ChowiLau/final-python/blob/master/final1/app.py](webapp.py)
+[webapp.py](https://github.com/ChowiLau/final-python/blob/master/final1/app.py)
 
 Web App动作描述(更详细的注释已写在webapp.py档里)
 ---
-[https://github.com/ChowiLau/final-python/blob/master/final1/app.py](webapp.py)
+[webapp.py](https://github.com/ChowiLau/final-python/blob/master/final1/app.py)
